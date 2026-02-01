@@ -100,25 +100,29 @@ python robot_main.py
 ## 📂 Repository Structure
 
 ```text
-Pothole-Rover/
+Pothole-Detection-YOLOv8/
 │
-├── robot_main.py        # The "Brain" code (AI + Serial Comms)
-├── visual_test.py       # Script used for manual accuracy validation
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
+├── README.md               
+├── requirements.txt        <-- List of libraries (ultralytics, opencv, etc.)
+├── robot_main.py           <-- The final "Ultimate" Python script for the robot
+├── visual_test.py          <-- The script you used for Manual Validation
 │
 ├── weights/
-│   └── best.pt          # Trained YOLOv8 Model
+│   └── best.pt             <-- Trained AI Brain 
 │
-├── results/             # Performance graphs & charts
+├── config/
+│   └── data.yaml           <-- The config file used for training
+│
+├── results/                
 │   ├── confusion_matrix.png
-│   └── F1_curve.png
+│   ├── F1_curve.png
+│   ├── PR_curve.png
+│   └── val_batch0_pred.jpg 
 │
-└── arduino_code/        # Code for the Microcontroller
-    └── final_rover_sketch.ino
-
+└── samples/                
+    ├── pothole_1.jpg
+    └── pothole_2.jpg
 ```
-
 ---
 
 ##  Future Scope
