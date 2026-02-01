@@ -25,7 +25,7 @@ The robot operates on a **Master-Slave Architecture**:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **Edge AI Vision:** Real-time pothole detection at 30 FPS using TensorRT-optimized YOLOv8.
 * **Sensor Fusion Safety:** Combines Visual data with **Ultrasonic** (Obstacle Avoidance) and **IR** (Cliff Detection) to prevent crashes.
@@ -97,7 +97,7 @@ python robot_main.py
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 Pothole-Detection-YOLOv8/
@@ -133,9 +133,9 @@ Pothole-Detection-YOLOv8/
 
 ---
 
-## 👥 Team
+## Team
 
-* **AtharV Aggarwal** 
+* **Atharv Aggarwal** 
 * **Tushar Vats**
 * **Vaibhav Rawat**
 * **Jagrav Raj**
