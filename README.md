@@ -139,5 +139,6 @@ Pothole-Detection-YOLOv8/
 * **Tushar Vats**
 * **Vaibhav Rawat**
 * **Jagrav Raj**
+* **Charitra Chauhan**
 
 ---
